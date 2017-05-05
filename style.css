@@ -1,0 +1,21 @@
+/*
+	Code by Cameron Cabo, all rights reserved. 
+*/
+
+body {
+	background-color: #FA8465;
+	text-align: center;
+}
+
+h {
+	position: absolute;
+	top: 3in;
+	text-align: center;
+	font-family: Verdana, sans serif;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 250%;
+	color: white;
+	font-weight: 600;
+	letter-spacing: 5px;
+}
