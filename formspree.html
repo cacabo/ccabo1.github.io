@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title</title>
+
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Cameron Cabo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- styling -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+
+    <!-- favicon -->
+</head>
+
+<body>
+    <nav>
+        <h1>Content</h1>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Form</h3>
+                <form id="contact-form" action="//formspree.io/cameron.cabo@outlook.com" method="post">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" cols="30" rows="6" placeholder="Message" required></textarea>
+                    <!-- CONFIG -->
+                    <input class="is-hidden" type="text" name="_gotcha">
+                    <input type="hidden" name="_subject" value="Subject">
+                    <input type="hidden" name="_cc" value="email@cc.com">
+                    <!-- /CONFIG -->
+                    <input class="submit" type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+    </footer>
+
+    <!--Javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
