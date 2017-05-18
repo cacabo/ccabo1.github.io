@@ -1,10 +1,8 @@
-// When the document has finished loading...
-$(document).ready(function() {
-  var $contactForm = $('#contact-form');
+var $contactForm = $('#contact-form');
 $contactForm.submit(function(e) {
     e.preventDefault();
     $.ajax({
-        url: 'https://formspree.io/cameron.cabo@outlook.com',
+        url: 'https://formspree.io/cameron.cabo@yahoo.com',
         method: 'POST',
         data: $(this).serialize(),
         dataType: 'json',
@@ -20,5 +18,4 @@ $contactForm.submit(function(e) {
             $contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
         }
     });
-});
 });
